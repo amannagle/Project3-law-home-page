@@ -46,9 +46,28 @@ button.button-small{
 section[aria-label="hero"]
 {
   
-  padding: 100px;
+  padding: 70px;
 }
 
 div.hero{
   display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+h1.hero-heading{
+  font-size: 70px;
+  font-weight: 900;
+  min-width: 600px;
+  color: #ffffff;
+}
+
+p.hero-body{
+
+  /* padding: 40px 0px;   */
+  font-size: 20px;
+  padding: 0px 160px;
+  line-height: 1.7;
+  /* font-size: 18p1x; */
+  color: #c4c2c0;
 }
