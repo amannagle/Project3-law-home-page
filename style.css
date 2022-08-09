@@ -46,7 +46,9 @@ button.button-small{
 section[aria-label="hero"]
 {
   
-  padding: 70px;
+  padding:  0px 70px;
+  display: flex;
+  flex-direction: column;
 }
 
 div.hero{
@@ -70,4 +72,72 @@ p.hero-body{
   line-height: 1.7;
   /* font-size: 18p1x; */
   color: #c4c2c0;
+}
+
+div.bottom{
+  position: absolute;
+  background: url('assets/justice_cropped2.jpg');
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 300px;
+  bottom: 80px;
+  z-index: -1;
+  right: 0px;
+}
+
+div.bottom>div{
+  position: absolute;
+  bottom: -75px;
+  right: 0px;
+  display: flex;
+}
+
+div.button-large-prev,div.button-large-next{
+  position: relative;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 75px;
+  text-align: center;
+}
+
+
+div.button-large-prev{
+  
+  background-color: #39372d;
+  color: #a08f36;
+}
+
+div.button-large-prev::before{
+  position: absolute;
+    content: '';
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 15px;
+    left: 33px;
+    color: transparent;
+    border: 2px solid #a08f36;
+}
+
+div.button-large-next{
+  background-color: #a08f36;
+  color: #ffffff;
+}
+
+div.button-large-next::before{
+  position: absolute;
+    content: '';
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: transparent;
+    top: 15px;
+    left: 33px;
+    color: transparent;
+    border: 2px solid #ffffff;
 }
