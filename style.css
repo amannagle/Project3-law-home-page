@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+body{
+  background-color: #2b2922;
+  background-size: cover;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+nav{
+  display: flex;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+nav ul{
+  margin-left: 20vw;
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  color: #74726b;
+}
+nav ul>li:first-child{
+  font-weight: 700;
+  color: #ffffff;
+}
+button.button-small{
+  margin-left: 50px;
+  background-color: transparent;
+  color: #958634;
+  height: 60px;
+  width: 180px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  border: 2px solid #958634;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+section[aria-label="hero"]
+{
+  
+  padding: 100px;
+}
+
+div.hero{
+  display: flex;
+}
